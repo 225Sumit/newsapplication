@@ -1,0 +1,91 @@
+
+.background{
+    background: linear-gradient(to right,#3A59D1,#3D90D7,#7AC6D2,#B5FCCD);
+}
+.active{
+    border-bottom: 2px solid #3A59D1;
+    /* background-color: #7AC6D2 !important ; */
+}
+li{
+    text-transform: capitalize;
+}
+.card-title{
+    font-size: 1rem;
+    height: 120px;
+}
+.source-date{
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+}
+.card-text{
+    height: 275px;
+}
+
+@media only screen and (min-width:0) and (max-width:575px){
+   .card-title{
+   
+    font-size: 1.2rem;
+    height: 50px;
+}
+.card-text{
+    height: 50px;
+}
+    
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+   .card-title{
+    
+    font-size: 1rem;
+    height: 50px;
+}
+.card-text{
+    height: 75px;
+}
+    
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+   .card-title{
+  
+    font-size: 1rem;
+    height: 50px;
+}
+.card-text{
+    height: 80px;
+}
+    
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+   .card-title{
+   
+    font-size: 1rem;
+    height: 55px;
+}
+.card-text{
+    height: 80px;
+}
+    
+}
+@media only screen and (min-width:1200px) and (max-width:1400px){
+   .card-title{
+      
+    font-size: 1rem;
+    height: 55px;
+}
+.card-text{
+    height: 80px;
+}
+    
+}
+@media only screen and (min-width:1401px) and (max-width:1700px){
+   .card-title{
+  
+    font-size: 1rem;
+    height: 70px;
+}
+.card-text{
+    height: 109px;
+}
+    
+}
