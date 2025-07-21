@@ -21,7 +21,7 @@ A responsive and dynamic **News Application** built using **React.js**, fetching
 - **API**: [NewsAPI.org](https://newsapi.org/)
 - **Routing**: React Router DOM
 
-  ##💡 Learnings
+  ## 💡 Learnings
 This project helped me strengthen my understanding of:
 
 React state management using hooks
